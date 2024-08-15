@@ -59,15 +59,15 @@ namespace InteresSimpleUI
             else if (!double.TryParse(capitalTextBox.Text, out double capital))
             {
                 e.Cancel = true;
-                provedorError.SetError(capitalTextBox, "El capital debe ser un numero ");
-                capitalErrorLabel.Text = "El capital debe ser un numero ";
+                provedorError.SetError(capitalTextBox, "El capital debe ser un número ");
+                capitalErrorLabel.Text = "El capital debe ser un número ";
                 capitalTextBox.Focus();
             }
             else if (capital < 0)
             {
                 e.Cancel = true;
-                provedorError.SetError(capitalTextBox, "El capital no puede ser un numero negativo");
-                capitalErrorLabel.Text = "El capital no puede ser un numero negativo";
+                provedorError.SetError(capitalTextBox, "El capital no puede ser un número negativo");
+                capitalErrorLabel.Text = "El capital no puede ser un número negativo";
                 capitalTextBox.Focus();
             }
             else
@@ -90,15 +90,22 @@ namespace InteresSimpleUI
             else if (!double.TryParse(tasaInteresTextBox.Text, out double tasaInteres))
             {
                 e.Cancel = true;
-                provedorError.SetError(tasaInteresTextBox, "La tasa de interes debe de ser un numero");
-                tasaInteresErrorLabel.Text = "La tasa de interes debe ser un numero";
+                provedorError.SetError(tasaInteresTextBox, "La tasa de interes debe de ser un número");
+                tasaInteresErrorLabel.Text = "La tasa de interes debe ser un número";
                 tasaInteresTextBox.Focus();
             }
             else if (tasaInteres > 100)
             {
-                e.Cancel= true;
+                e.Cancel = true;
                 provedorError.SetError(tasaInteresTextBox, "La tasa de interes no debe ser mayor a 100");
                 tasaInteresErrorLabel.Text = "La tasa de interes no debe ser mayor a 100";
+                tasaInteresTextBox.Focus();
+            }
+            else if (tasaInteres == 0)
+            {
+                e.Cancel = true;
+                provedorError.SetError(tasaInteresTextBox, "La tasa de interes debe ser mayor a 0");
+                tasaInteresErrorLabel.Text = "La tasa dse interes debe ser mayor a 0";
                 tasaInteresTextBox.Focus();
             }
             else if (tasaInteres < 0)
@@ -128,22 +135,22 @@ namespace InteresSimpleUI
             else if (!double.TryParse(tiempoTextBox.Text, out double tiempo))
             {
                 e.Cancel = true;
-                provedorError.SetError(tiempoTextBox, "El tiempo debe de ser un numero");
-                tiempoErrorLabel.Text = "El tiempo debe de ser un numero";
+                provedorError.SetError(tiempoTextBox, "El tiempo debe de ser un número");
+                tiempoErrorLabel.Text = "El tiempo debe de ser un número";
                 tiempoTextBox.Focus();
             }
-            else if(tiempo == 0)
+            else if (tiempo == 0)
             {
                 e.Cancel = true;
                 provedorError.SetError(tiempoTextBox, "El tiempo debe ser mayor a 0");
-                tiempoErrorLabel.Text = "El tiewpo debe ser mayor a 0";
+                tiempoErrorLabel.Text = "El tiempo debe ser mayor a 0";
                 tiempoTextBox.Focus();
             }
             else if (tiempo < 0)
             {
                 e.Cancel = true;
-                provedorError.SetError(tiempoTextBox, "El tiempo no puede ser un numero negativo");
-                tiempoErrorLabel.Text = "El tiempo no puede ser un numero negativo";
+                provedorError.SetError(tiempoTextBox, "El tiempo no puede ser un número negativo");
+                tiempoErrorLabel.Text = "El tiempo no puede ser un número negativo";
                 tiempoTextBox.Focus();
             }
             else
@@ -159,5 +166,7 @@ namespace InteresSimpleUI
         {
             Application.Exit();
         }
+
+        
     }
 }

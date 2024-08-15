@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimpleui\\interessimpleforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|solutionrelative:interessimpleui\\interessimpleforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimpleui\\interessimpleforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|solutionrelative:interessimpleui\\interessimpleforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimpleui\\interessimpleforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|solutionrelative:interessimpleui\\interessimpleforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimpleui\\interessimpleforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|solutionrelative:interessimpleui\\interessimpleforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D25FCBC9-21E3-45A5-A1BB-E70A8125A3C5}|InteresSimpleLibrary\\InteresSimpleLibrary.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimplelibrary\\iinteressimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D25FCBC9-21E3-45A5-A1BB-E70A8125A3C5}|InteresSimpleLibrary\\InteresSimpleLibrary.csproj|solutionrelative:interessimplelibrary\\iinteressimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimpleui\\interessimpleui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4ADE51A-69B1-4A35-B5FA-F275612DA7C9}|InteresSimpleUI\\InteresSimpleUI.csproj|solutionrelative:interessimpleui\\interessimpleui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D25FCBC9-21E3-45A5-A1BB-E70A8125A3C5}|InteresSimpleLibrary\\InteresSimpleLibrary.csproj|c:\\users\\melissa\\source\\repos\\interessimpleapp\\interessimplelibrary\\interessimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +42,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "InteresSimpleForms.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleForms.cs",
+              "RelativeDocumentMoniker": "InteresSimpleUI\\InteresSimpleForms.cs",
+              "ToolTip": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleForms.cs [Design]",
+              "RelativeToolTip": "InteresSimpleUI\\InteresSimpleForms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:56:37.308Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InteresSimpleUI.csproj",
+              "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleUI.csproj",
+              "RelativeDocumentMoniker": "InteresSimpleUI\\InteresSimpleUI.csproj",
+              "ToolTip": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleUI.csproj",
+              "RelativeToolTip": "InteresSimpleUI\\InteresSimpleUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T02:56:34.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "interesSimpleForms.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\interesSimpleForms.Designer.cs",
               "RelativeDocumentMoniker": "InteresSimpleUI\\interesSimpleForms.Designer.cs",
               "ToolTip": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\interesSimpleForms.Designer.cs",
               "RelativeToolTip": "InteresSimpleUI\\interesSimpleForms.Designer.cs",
-              "ViewState": "AQIAAKgAAAAAAAAAAAASwLcAAAA5AAAA",
+              "ViewState": "AQIAAKIAAAAAAAAAAAASwLcAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T01:25:15.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InteresSimpleForms.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleForms.cs",
               "RelativeDocumentMoniker": "InteresSimpleUI\\InteresSimpleForms.cs",
               "ToolTip": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleUI\\InteresSimpleForms.cs",
               "RelativeToolTip": "InteresSimpleUI\\InteresSimpleForms.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwC8AAAAAAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAADgv6kAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T00:46:50.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "InteresSimple.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleLibrary\\InteresSimple.cs",
               "RelativeDocumentMoniker": "InteresSimpleLibrary\\InteresSimple.cs",
@@ -68,12 +100,11 @@
               "RelativeToolTip": "InteresSimpleLibrary\\InteresSimple.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:11:48.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:11:48.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IInteresSimple.cs",
               "DocumentMoniker": "C:\\Users\\Melissa\\source\\repos\\InteresSimpleApp\\InteresSimpleLibrary\\IInteresSimple.cs",
               "RelativeDocumentMoniker": "InteresSimpleLibrary\\IInteresSimple.cs",
@@ -81,8 +112,7 @@
               "RelativeToolTip": "InteresSimpleLibrary\\IInteresSimple.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T21:11:25.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T21:11:25.33Z"
             }
           ]
         }

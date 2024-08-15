@@ -37,7 +37,7 @@
             tasaInteresLabel = new Label();
             tasaInteresErrorLabel = new Label();
             tiempoTextBox = new TextBox();
-            label1 = new Label();
+            tiempoLabel = new Label();
             CalcularButton = new Button();
             tiempoErrorLabel = new Label();
             provedorError = new ErrorProvider(components);
@@ -119,15 +119,15 @@
             tiempoTextBox.TabIndex = 8;
             tiempoTextBox.Validating += tiempoTextBox_Validating;
             // 
-            // label1
+            // tiempoLabel
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(104, 341);
-            label1.Name = "label1";
-            label1.Size = new Size(258, 32);
-            label1.TabIndex = 7;
-            label1.Text = "Cantidad de Tiempo: ";
+            tiempoLabel.AutoSize = true;
+            tiempoLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tiempoLabel.Location = new Point(104, 341);
+            tiempoLabel.Name = "tiempoLabel";
+            tiempoLabel.Size = new Size(258, 32);
+            tiempoLabel.TabIndex = 7;
+            tiempoLabel.Text = "Cantidad de Tiempo: ";
             // 
             // CalcularButton
             // 
@@ -171,7 +171,7 @@
             Controls.Add(tiempoErrorLabel);
             Controls.Add(CalcularButton);
             Controls.Add(tiempoTextBox);
-            Controls.Add(label1);
+            Controls.Add(tiempoLabel);
             Controls.Add(tasaInteresErrorLabel);
             Controls.Add(tasaInteresTextBox);
             Controls.Add(tasaInteresLabel);
@@ -197,7 +197,7 @@
         private Label tasaInteresLabel;
         private Label tasaInteresErrorLabel;
         private TextBox tiempoTextBox;
-        private Label label1;
+        private Label tiempoLabel;
         private Button CalcularButton;
         private Label tiempoErrorLabel;
         private ErrorProvider provedorError;
