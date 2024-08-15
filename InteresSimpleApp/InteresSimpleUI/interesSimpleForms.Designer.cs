@@ -38,7 +38,6 @@
             tasaInteresErrorLabel = new Label();
             tiempoTextBox = new TextBox();
             label1 = new Label();
-            tiempoComboBox = new ComboBox();
             CalcularButton = new Button();
             tiempoErrorLabel = new Label();
             provedorError = new ErrorProvider(components);
@@ -130,14 +129,6 @@
             label1.TabIndex = 7;
             label1.Text = "Cantidad de Tiempo: ";
             // 
-            // tiempoComboBox
-            // 
-            tiempoComboBox.FormattingEnabled = true;
-            tiempoComboBox.Location = new Point(666, 344);
-            tiempoComboBox.Name = "tiempoComboBox";
-            tiempoComboBox.Size = new Size(182, 33);
-            tiempoComboBox.TabIndex = 9;
-            // 
             // CalcularButton
             // 
             CalcularButton.Location = new Point(402, 457);
@@ -179,7 +170,6 @@
             Controls.Add(resultadoLabel);
             Controls.Add(tiempoErrorLabel);
             Controls.Add(CalcularButton);
-            Controls.Add(tiempoComboBox);
             Controls.Add(tiempoTextBox);
             Controls.Add(label1);
             Controls.Add(tasaInteresErrorLabel);
@@ -191,7 +181,7 @@
             Controls.Add(tituloLabel);
             Name = "IteresSimpleForms";
             Text = "interesSimpleForms";
-            Load += IteresSimpleForms_Load;
+            FormClosing += IteresSimpleForms_FormClosing;
             ((System.ComponentModel.ISupportInitialize)provedorError).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -208,7 +198,6 @@
         private Label tasaInteresErrorLabel;
         private TextBox tiempoTextBox;
         private Label label1;
-        private ComboBox tiempoComboBox;
         private Button CalcularButton;
         private Label tiempoErrorLabel;
         private ErrorProvider provedorError;
