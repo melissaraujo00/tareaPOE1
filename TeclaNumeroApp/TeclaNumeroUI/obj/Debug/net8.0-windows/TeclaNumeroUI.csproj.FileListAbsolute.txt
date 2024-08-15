@@ -1,0 +1,17 @@
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\bin\Debug\net8.0-windows\TeclaNumeroUI.exe
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\bin\Debug\net8.0-windows\TeclaNumeroUI.deps.json
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\bin\Debug\net8.0-windows\TeclaNumeroUI.runtimeconfig.json
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\bin\Debug\net8.0-windows\TeclaNumeroUI.dll
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\bin\Debug\net8.0-windows\TeclaNumeroUI.pdb
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.TeclaNumForms.resources
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.csproj.GenerateResource.cache
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.AssemblyInfoInputs.cache
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.AssemblyInfo.cs
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.sourcelink.json
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.dll
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\refint\TeclaNumeroUI.dll
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.pdb
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\TeclaNumeroUI.genruntimeconfig.cache
+C:\Users\Melissa\source\repos\TeclaNumeroApp\TeclaNumeroUI\obj\Debug\net8.0-windows\ref\TeclaNumeroUI.dll
