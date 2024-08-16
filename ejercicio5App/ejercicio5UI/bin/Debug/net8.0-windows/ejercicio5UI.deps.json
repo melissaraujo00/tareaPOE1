@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ejercicio5UI/1.0.0": {
+        "dependencies": {
+          "FiguraLibreria": "1.0.0"
+        },
+        "runtime": {
+          "ejercicio5UI.dll": {}
+        }
+      },
+      "FiguraLibreria/1.0.0": {
+        "runtime": {
+          "FiguraLibreria.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ejercicio5UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FiguraLibreria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

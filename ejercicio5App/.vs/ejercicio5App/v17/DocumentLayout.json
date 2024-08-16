@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|solutionrelative:ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\ejercicio5ui\\trapecioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|solutionrelative:ejercicio5ui\\trapecioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8892D3B7-210C-4E8D-B789-F3C70D2C21B4}|ClassLibrary\\FiguraLibreria.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\classlibrary\\pentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8892D3B7-210C-4E8D-B789-F3C70D2C21B4}|ClassLibrary\\FiguraLibreria.csproj|solutionrelative:classlibrary\\pentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|solutionrelative:ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8892D3B7-210C-4E8D-B789-F3C70D2C21B4}|ClassLibrary\\FiguraLibreria.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\classlibrary\\ifigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8892D3B7-210C-4E8D-B789-F3C70D2C21B4}|ClassLibrary\\FiguraLibreria.csproj|solutionrelative:classlibrary\\ifigura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\ejercicio5ui\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|solutionrelative:ejercicio5ui\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrapecioForm.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\TrapecioForm.cs",
+              "RelativeDocumentMoniker": "ejercicio5UI\\TrapecioForm.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\TrapecioForm.cs",
+              "RelativeToolTip": "ejercicio5UI\\TrapecioForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:51:52.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ifigura.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\Ifigura.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Ifigura.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\Ifigura.cs",
+              "RelativeToolTip": "ClassLibrary\\Ifigura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:41:59.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PentagonoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs",
+              "RelativeDocumentMoniker": "ejercicio5UI\\PentagonoForm.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ejercicio5UI\\PentagonoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:40:26.38Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pentagono.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\Pentagono.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Pentagono.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\Pentagono.cs",
+              "RelativeToolTip": "ClassLibrary\\Pentagono.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:38:31.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PentagonoForm.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs",
+              "RelativeDocumentMoniker": "ejercicio5UI\\PentagonoForm.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs",
+              "RelativeToolTip": "ejercicio5UI\\PentagonoForm.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvy4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:32:44.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormularioPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\FormularioPrincipal.cs",
+              "RelativeDocumentMoniker": "ejercicio5UI\\FormularioPrincipal.cs",
+              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\FormularioPrincipal.cs",
+              "RelativeToolTip": "ejercicio5UI\\FormularioPrincipal.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:32:23.032Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
