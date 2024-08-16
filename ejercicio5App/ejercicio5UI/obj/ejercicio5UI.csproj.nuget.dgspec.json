@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj": {}
+    "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj",
-        "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj",
+        "projectName": "FiguraLibreria",
+        "projectPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj",
         "packagesPath": "C:\\Users\\merly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\merly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj": {
+    "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj",
+        "projectUniqueName": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj",
         "projectName": "ejercicio5UI",
-        "projectPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj",
+        "projectPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ejercicio5UI\\ejercicio5UI.csproj",
         "packagesPath": "C:\\Users\\merly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\obj\\",
+        "outputPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ejercicio5UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\merly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj"
+              "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj": {
+                "projectPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj"
               }
             }
           }

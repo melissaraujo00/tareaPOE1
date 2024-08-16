@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v8.0": {
       "ejercicio5UI/1.0.0": {
         "dependencies": {
-          "ClassLibrary": "1.0.0"
+          "FiguraLibreria": "1.0.0"
         },
         "runtime": {
           "ejercicio5UI.dll": {}
         }
       },
-      "ClassLibrary/1.0.0": {
+      "FiguraLibreria/1.0.0": {
         "runtime": {
-          "ClassLibrary.dll": {}
+          "FiguraLibreria.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ClassLibrary/1.0.0": {
+    "FiguraLibreria/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

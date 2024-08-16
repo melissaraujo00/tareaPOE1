@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj",
-      "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj",
+      "projectName": "FiguraLibreria",
+      "projectPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\FiguraLibreria.csproj",
       "packagesPath": "C:\\Users\\merly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\merly\\source\\repos\\Ejercicio5App\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\merly\\AppData\\Roaming\\NuGet\\NuGet.Config",
