@@ -13,6 +13,7 @@ namespace ejercicio5UI
 {
     public partial class PentagonoForm : Form
     {
+        //Calculadora de área y perímetro de un Pentagono
         public PentagonoForm()
         {
             InitializeComponent();
@@ -20,16 +21,52 @@ namespace ejercicio5UI
 
         private void calcularButton_Click(object sender, EventArgs e)
         {
-            decimal apotemaPentagono = Convert.ToDecimal(apotemaTextBox.Text);
-            decimal longitudLado = Convert.ToDecimal(longitudLadoTextBox.Text);
+            try
+            {
+                //validaciones 
+                if (string.IsNullOrWhiteSpace(apotemaTextBox.Text) || string.IsNullOrWhiteSpace(longitudLadoTextBox.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-            Pentagono miPentagono = new Pentagono(longitudLado, apotemaPentagono);
+                if (!decimal.TryParse(apotemaTextBox.Text, out decimal apotemaPentagono) ||
+                    !decimal.TryParse(longitudLadoTextBox.Text, out decimal longitudLado))
+                {
+                    MessageBox.Show("Ingrese valores numéricos válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-            decimal areaPentagono = miPentagono.CalcularArea();
-            decimal perimetroPentagono = miPentagono.CalcularPerimetro();
+                if (apotemaPentagono < 0 || longitudLado < 0)
+                {
+                    MessageBox.Show("Los valores deben ser mayores que cero.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
 
-            MessageBox.Show($"El pentagono tiene una area: {areaPentagono} cm y un perimetro de {perimetroPentagono} cm");
+                //Creación de la instancia del objeto y utilización de los métodos
 
+                Pentagono miPentagono = new Pentagono(longitudLado, apotemaPentagono);
+                decimal areaPentagono = miPentagono.CalcularArea();
+                decimal perimetroPentagono = miPentagono.CalcularPerimetro();
+
+                MessageBox.Show($"El pentágono tiene un área de {areaPentagono} cm² y un perímetro de {perimetroPentagono} cm.", "Resultados", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show($"Formato de entrada inválido: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (OverflowException ex)
+            {
+                MessageBox.Show($"Valor numérico fuera de rango: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (NullReferenceException ex)
+            {
+                MessageBox.Show($"Error de referencia nula: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

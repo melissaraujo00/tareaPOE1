@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|c:\\users\\merly\\source\\repos\\ejercicio5app\\ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776A7E52-2BB4-41FE-A587-B32634B57A71}|ejercicio5UI\\ejercicio5UI.csproj|solutionrelative:ejercicio5ui\\pentagonoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PentagonoForm.cs",
-              "DocumentMoniker": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs",
-              "RelativeDocumentMoniker": "ejercicio5UI\\PentagonoForm.cs",
-              "ToolTip": "C:\\Users\\merly\\source\\repos\\ejercicio5App\\ejercicio5UI\\PentagonoForm.cs",
-              "RelativeToolTip": "ejercicio5UI\\PentagonoForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T03:57:51.578Z",
-              "EditorCaption": ""
             }
           ]
         }

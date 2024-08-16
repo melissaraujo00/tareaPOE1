@@ -29,42 +29,57 @@
         private void InitializeComponent()
         {
             seleccionFiguraComboBox = new ComboBox();
-            selccionarButton = new Button();
+            seleccionarButton = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // seleccionFiguraComboBox
             // 
+            seleccionFiguraComboBox.ForeColor = Color.Gray;
             seleccionFiguraComboBox.FormattingEnabled = true;
             seleccionFiguraComboBox.Items.AddRange(new object[] { "Pentagono", "Trapecio" });
-            seleccionFiguraComboBox.Location = new Point(97, 98);
+            seleccionFiguraComboBox.Location = new Point(97, 119);
             seleccionFiguraComboBox.Name = "seleccionFiguraComboBox";
             seleccionFiguraComboBox.Size = new Size(151, 28);
             seleccionFiguraComboBox.TabIndex = 9;
             // 
-            // selccionarButton
+            // seleccionarButton
             // 
-            selccionarButton.Location = new Point(123, 155);
-            selccionarButton.Name = "selccionarButton";
-            selccionarButton.Size = new Size(94, 29);
-            selccionarButton.TabIndex = 10;
-            selccionarButton.Text = "Seleccionar";
-            selccionarButton.UseVisualStyleBackColor = true;
-            selccionarButton.Click += selccionarButton_Click;
+            seleccionarButton.Location = new Point(123, 176);
+            seleccionarButton.Name = "seleccionarButton";
+            seleccionarButton.Size = new Size(94, 29);
+            seleccionarButton.TabIndex = 10;
+            seleccionarButton.Text = "Seleccionar";
+            seleccionarButton.UseVisualStyleBackColor = true;
+            seleccionarButton.Click += seleccionarButton_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(39, 70);
+            label1.Name = "label1";
+            label1.Size = new Size(274, 23);
+            label1.TabIndex = 12;
+            label1.Text = "Calculadora de Area y Perimetro ";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(357, 325);
-            Controls.Add(selccionarButton);
+            ClientSize = new Size(357, 284);
+            Controls.Add(label1);
+            Controls.Add(seleccionarButton);
             Controls.Add(seleccionFiguraComboBox);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
         private ComboBox seleccionFiguraComboBox;
-        private Button selccionarButton;
+        private Button seleccionarButton;
+        private Label label1;
     }
 }

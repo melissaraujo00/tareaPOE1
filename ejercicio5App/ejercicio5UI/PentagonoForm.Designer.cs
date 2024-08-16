@@ -32,7 +32,7 @@
             apotemaLabel = new Label();
             longitudLadoTextBox = new TextBox();
             longitudLadoLabel = new Label();
-            pentagonoLabel = new Label();
+            tituloPentagonoLabel = new Label();
             calcularButton = new Button();
             SuspendLayout();
             // 
@@ -68,14 +68,15 @@
             longitudLadoLabel.TabIndex = 9;
             longitudLadoLabel.Text = "Longitud de lado:";
             // 
-            // pentagonoLabel
+            // tituloPentagonoLabel
             // 
-            pentagonoLabel.AutoSize = true;
-            pentagonoLabel.Location = new Point(180, 55);
-            pentagonoLabel.Name = "pentagonoLabel";
-            pentagonoLabel.Size = new Size(80, 20);
-            pentagonoLabel.TabIndex = 8;
-            pentagonoLabel.Text = "Pentagono";
+            tituloPentagonoLabel.AutoSize = true;
+            tituloPentagonoLabel.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tituloPentagonoLabel.Location = new Point(83, 70);
+            tituloPentagonoLabel.Name = "tituloPentagonoLabel";
+            tituloPentagonoLabel.Size = new Size(354, 23);
+            tituloPentagonoLabel.TabIndex = 8;
+            tituloPentagonoLabel.Text = "Calcular Area y Perimetro de un Pentagono";
             // 
             // calcularButton
             // 
@@ -97,7 +98,7 @@
             Controls.Add(apotemaLabel);
             Controls.Add(longitudLadoTextBox);
             Controls.Add(longitudLadoLabel);
-            Controls.Add(pentagonoLabel);
+            Controls.Add(tituloPentagonoLabel);
             Name = "PentagonoForm";
             Text = "PentagonoForm";
             ResumeLayout(false);
@@ -110,7 +111,7 @@
         private Label apotemaLabel;
         private TextBox longitudLadoTextBox;
         private Label longitudLadoLabel;
-        private Label pentagonoLabel;
+        private Label tituloPentagonoLabel;
         private Button calcularButton;
     }
 }
