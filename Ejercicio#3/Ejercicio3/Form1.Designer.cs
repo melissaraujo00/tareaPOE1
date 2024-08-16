@@ -38,7 +38,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            label1.Location = new Point(191, 80);
+            label1.Location = new Point(167, 95);
             label1.Name = "label1";
             label1.Size = new Size(286, 19);
             label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // CalculartextBox
             // 
             CalculartextBox.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            CalculartextBox.Location = new Point(191, 117);
+            CalculartextBox.Location = new Point(191, 126);
             CalculartextBox.Multiline = true;
             CalculartextBox.Name = "CalculartextBox";
             CalculartextBox.Size = new Size(236, 62);
@@ -57,7 +57,7 @@
             // 
             Resultadolabel.AutoSize = true;
             Resultadolabel.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            Resultadolabel.Location = new Point(272, 201);
+            Resultadolabel.Location = new Point(272, 207);
             Resultadolabel.Name = "Resultadolabel";
             Resultadolabel.Size = new Size(85, 19);
             Resultadolabel.TabIndex = 2;
@@ -66,7 +66,7 @@
             // Calcularbutton
             // 
             Calcularbutton.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            Calcularbutton.Location = new Point(191, 195);
+            Calcularbutton.Location = new Point(191, 201);
             Calcularbutton.Name = "Calcularbutton";
             Calcularbutton.Size = new Size(75, 31);
             Calcularbutton.TabIndex = 3;
